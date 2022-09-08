@@ -1,31 +1,49 @@
 .container{
     background-color: pink;
     width: 100vw;
-    height: 100vw;
+    height: auto;
 
 
 }
 .rød{
     width: 100vw;
-    height: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 
 }
 
 .blå{
 width: 100vw;
-height: auto;
+height: 450px;
+display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
 
-.box1 .box2 .box3{
+.box1, .box2, .box3{
 background-color: red;
 width: 33%;
 height: 200px;
+margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+font-weight:bolder;
 
 }
 
-.box4 .box5{
+.box4, .box5{
 background-color: blue;
 width: 50%;
 height: 400px;
+margin: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+font-weight:bolder;
 
 }
