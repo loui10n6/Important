@@ -1,1 +1,13 @@
-abc
+.container{
+    background-color: pink;
+
+}
+
+.box1 .box2 .box3{
+background-color: red;
+}
+
+.box4 .box5{
+background-color: blue;
+
+}
